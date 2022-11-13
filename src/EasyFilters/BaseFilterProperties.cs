@@ -1,4 +1,3 @@
-﻿namespace EasyFilters
-{
-    public abstract class BaseFilterProperties { }
-}
+﻿namespace EasyFilters;
+
+public abstract class BaseFilterProperties { }

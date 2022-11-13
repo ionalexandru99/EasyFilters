@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA90D966-DDB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A663623A-6E2D-412C-87AA-7A60C6E57BDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyFilters.Tests", "tests\EasyFilters.Tests\EasyFilters.Tests.csproj", "{C41D33FC-6B19-44B4-8714-9455E5CF6307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "src\TestApp\TestApp.csproj", "{D8B76E2C-687D-403D-BA26-D188AD7EB6A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{1C251DF1-6E4F-4FD1-AF55-065ABF7CC829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C251DF1-6E4F-4FD1-AF55-065ABF7CC829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C251DF1-6E4F-4FD1-AF55-065ABF7CC829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C41D33FC-6B19-44B4-8714-9455E5CF6307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41D33FC-6B19-44B4-8714-9455E5CF6307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41D33FC-6B19-44B4-8714-9455E5CF6307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41D33FC-6B19-44B4-8714-9455E5CF6307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B76E2C-687D-403D-BA26-D188AD7EB6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B76E2C-687D-403D-BA26-D188AD7EB6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B76E2C-687D-403D-BA26-D188AD7EB6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B76E2C-687D-403D-BA26-D188AD7EB6A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -28,6 +40,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1C251DF1-6E4F-4FD1-AF55-065ABF7CC829} = {BA90D966-DDBD-46CA-8CC6-D0741627312B}
+		{C41D33FC-6B19-44B4-8714-9455E5CF6307} = {A663623A-6E2D-412C-87AA-7A60C6E57BDC}
+		{D8B76E2C-687D-403D-BA26-D188AD7EB6A7} = {BA90D966-DDBD-46CA-8CC6-D0741627312B}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
